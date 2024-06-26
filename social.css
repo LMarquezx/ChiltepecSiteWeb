@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.social{
+    position: fixed;
+    left: 0;
+    top:300px;
+    z-index: 1000;
+}
+
+.social ul{
+    list-style-type: none;
+    padding: 0;
+}
+.social ul li a{
+    color: #fff;
+    display: inline-block;
+    background-color: #5f5e5e;
+    padding:10px 15px;
+    text-decoration: none;
+    transition: 500ms ease;
+}
+.social ul li a img{
+    width: 10px;
+}
+.social ul li .icon-facebook{
+    background: #cac9c9;
+}
+.social ul li .icon-x{
+    background: #cac9c9;
+}
+.social ul li .icon-instagram{
+    background: #cac9c9;
+}
+.social ul li .icon-processwire{
+    background: #cac9c9;
+}
+.social ul li .icon-youtube{
+    background: #cac9c9;
+}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    background-color: #000;
+}

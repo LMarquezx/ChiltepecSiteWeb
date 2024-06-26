@@ -1,0 +1,32 @@
+
+header{
+    width: 100%;
+    height: 400px;
+}
+.artiecono{
+    background-color: #fff;
+    height: 1300px;
+}
+.artiecono .cont_econo{
+    background-image: radial-gradient(circle at -7.92% 9.44%, #fffff9 0, #fffaf3 12.5%, #ffeeea 25%, #ece0e0 37.5%, #d3d2d2 50%, #bac4c3 62.5%, #a4b7b5 75%, #92aca7 87.5%, #83a399 100%);
+    width: 70%;
+    margin: auto;
+    padding:30px;
+    border-radius: 15px;
+    text-align: justify;
+
+}
+.artiecono .cont_econo img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px black;
+}
+.artiecono .cont_econo p{
+    padding: 15px;
+}
+.artiecono .cont_econo h2{
+    font-size: 30px;
+    color: #5f5e5e;
+}

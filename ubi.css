@@ -1,0 +1,54 @@
+.cont_ub{
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+.cont_ub .ubitxt{
+    background-image: radial-gradient(circle at 104.17% 95.45%, #ffffff 0, #ffffff 12.5%, #ffffff 25%, #fff5f7 37.5%, #e5e5e5 50%, #cad5d1 62.5%, #b3c6be 75%, #a1baac 87.5%, #92af9c 100%);
+    width: 450px; 
+    height: 700px; 
+    margin: 10px; 
+    border-radius: 5px;
+    padding: 20px; 
+    text-align: justify;
+}
+.cont_ub .ubitxt h2{
+    color:#5f5e5e;
+    font-size: 40px;
+
+}
+
+.cont_ub .ubiimg{
+    background-image: radial-gradient(circle at 104.17% 95.45%, #ffffff 0, #ffffff 12.5%, #ffffff 25%, #fff5f7 37.5%, #e5e5e5 50%, #cad5d1 62.5%, #b3c6be 75%, #a1baac 87.5%, #92af9c 100%);
+    width: 600px; 
+    height: 700px;
+    margin: 10px; 
+    border-radius: 5px;
+    padding: 20px; 
+    text-align: justify;
+}
+.cont_ub .ubiimg img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.cont_ub .ubiimg a{
+    padding: 10px;
+    color: aliceblue;
+    background-color: #686666;
+    text-decoration: none;
+    
+}
+.cont_ub .ubiimg a:hover{
+    border:3px solid #686666;
+    color: #686666;
+    background-color: aliceblue;
+    -webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
